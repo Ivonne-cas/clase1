@@ -1,0 +1,106 @@
+body{
+    background-image: url("./imagenact/tortuga.png");
+    background-size: cover;
+}
+#tortuga{
+    width: 600pt;
+    height: 250pt;
+    display:block;
+    margin:auto;
+    
+}
+#mundo{
+    width: 400pt;
+   
+    float:right;
+}   
+#mundo1{
+   width: 250pt;
+    height: 210pt;
+    float:left;
+} 
+#titulostipos{
+    color: rgb(17, 247, 158);
+    font: oblique bold 120% cursive;
+}
+#textotipo{
+    color: rgb(0, 0, 0);
+    text-align: justify;
+}
+#video1{
+    width: 400pt;
+    height: 180pt;
+    margin-left: 0%;
+}
+#video2{
+    width: 400pt;
+    height: 180pt;
+    margin-right: 0%;
+}
+#titulostipos{
+    color: rgb(17, 247, 158);
+    font: oblique bold 120% cursive;
+}
+
+
+
+body{
+    font-family: verdana, helvetica;
+    font-weight: bold;
+ }
+ 
+ #nav{
+    width: 155px;
+ }
+ 
+ .titulonav{   
+    border-width: 1px;
+    border-style: solid;
+    border-color: #000000;
+    font-size: 8pt;
+    font-weight: bold;
+    background-color: #999999;
+    color: #ffffff;
+    padding: 4px;
+ }
+ 
+ .cuerporec{
+    margin-top: 4px;
+    margin-right: 0pt;
+    margin-bottom: 10px;
+    margin-left: 0pt;
+ }
+ 
+ .cuerporec ul{
+    margin-top: 5px;
+    margin-right: 0px;
+    margin-bottom: 20px;
+    margin-left: 0px;
+    padding-top: 0pt;
+    padding-right: 0pt;
+    padding-bottom: 0pt;
+    padding-left: 1px;
+    list-style-type: none;
+    list-style-image: none;
+    list-style-position: outside;
+ }
+ 
+ .cuerporec li{
+    border-width: 1px;
+    border-style: solid;
+    border-color: #d7d7d7;
+    padding: 1px 0 2px 2px;
+    font-size: 8pt;
+    padding-bottom: 2px;
+    margin-top: 2px;
+    margin-right: 0pt;
+    margin-bottom: 2px;
+    margin-left: 0pt;
+    background-image: url(fondo_gris.gif);
+ }
+ 
+ .cuerporec a{
+    text-decoration: none;
+ }
+
+
