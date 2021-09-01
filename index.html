@@ -15,7 +15,7 @@
         background-color:#c6faf7dc;
       }
     </style>
-    <h1 style="text-align:center">LA CONTAMINACION AMBIENTAL EN LA ACTUALIDAD </h1>
+    <h1 id="titulomayor">LA CONTAMINACION AMBIENTAL EN LA ACTUALIDAD </h1>
        <img id="tortuga" src="./imagenact/tortuga.png" alt=" imagen de totrtuga ">
     </h1>
     <p style = "font-family:helvética;">
@@ -110,21 +110,37 @@
       <li><a href="pagina2.html">videos de paisajes </a> </li>
       </ul>
    </small>
+
+
+
+
+
+
+
+
+   <div class= "form">
+    <form action="guardar.php" method="POST">
+ 
+     <label for="nombre"> <center> Digita tu nombre </center></label>
+     <br>
+     <input type="text" name="nombre" placeholder="Nombres y apellidos" required="">
+     <br>
+     <br>
+     <label for="correo"> <center> Digite su Direccion de correo </center></label >
+     <br>
+     <input type="text" name="correo" placeholder="...@mail.com" required="">
+     <br>
+     <br>
+     <label for="mensaje"> <center> buzon de sugerencias </center></label >
+     <br>
+     <textarea name="mensaje" placeholder="Mensaje O Comentario " required> </textarea>
+      <br>
+      <br>
+      <input type="submit" value="Enviar">
+      <input type="reset" value="Limpiar">
+    </form>
+ </div>
    
-   <div id="nav">
-    <div class="titulonav">
-    Secciones
-    </div>
-    
-    <div class="cuerporec">
-    <ul>
-       <li><a href="#">Portada</a></li>
-       <li><a href="#">Grandes rutas</a></li>
-       <li><a href="#">Nuevas rutas</a></li>
-       <li><a href="#">Ciudades</a></li>
-       <li><a href="#">Pueblos</a></li>
-    </ul>
-    </div>
  </div>
   </body>
 </html>

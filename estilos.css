@@ -1,3 +1,9 @@
+#titulomayor{
+color: red;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
 body{
     background-image: url("./imagenact/tortuga.png");
     background-size: cover;
@@ -42,65 +48,85 @@ body{
     font: oblique bold 120% cursive;
 }
 
+#titulosvideos{
+    color: rgb(255, 10, 10);
+    font: oblique bold 120% cursive;
+
+}
 
 
-body{
-    font-family: verdana, helvetica;
-    font-weight: bold;
- }
- 
- #nav{
-    width: 155px;
- }
- 
- .titulonav{   
-    border-width: 1px;
-    border-style: solid;
-    border-color: #000000;
-    font-size: 8pt;
-    font-weight: bold;
-    background-color: #999999;
-    color: #ffffff;
-    padding: 4px;
- }
- 
- .cuerporec{
-    margin-top: 4px;
-    margin-right: 0pt;
-    margin-bottom: 10px;
-    margin-left: 0pt;
- }
- 
- .cuerporec ul{
-    margin-top: 5px;
-    margin-right: 0px;
-    margin-bottom: 20px;
-    margin-left: 0px;
-    padding-top: 0pt;
-    padding-right: 0pt;
-    padding-bottom: 0pt;
-    padding-left: 1px;
-    list-style-type: none;
-    list-style-image: none;
-    list-style-position: outside;
- }
- 
- .cuerporec li{
-    border-width: 1px;
-    border-style: solid;
-    border-color: #d7d7d7;
-    padding: 1px 0 2px 2px;
-    font-size: 8pt;
-    padding-bottom: 2px;
-    margin-top: 2px;
-    margin-right: 0pt;
-    margin-bottom: 2px;
-    margin-left: 0pt;
-    background-image: url(fondo_gris.gif);
- }
- 
- .cuerporec a{
-    text-decoration: none;
- }
 
 
+
+
+
+
+/* estilo del formulario */
+.form{
+    position:relative;
+    width: 500px;
+    height: 500px;
+    padding-left: 30px;
+    padding-top: 20px;
+    background-color: rgb(201, 73, 218);
+    border-radius: 20px;
+    margin: auto;
+}
+
+
+input[type=text]{
+ 
+    width: 370px;
+    height: 25px;
+    font: 14px normal;
+    padding-left: 100px;
+
+}
+
+textarea{
+
+    width: 470px;
+    height: 110px;
+    font: 14px normal normal uppercase helvatica, arial, serif;
+    font: oblique bold 90% monospace;
+}
+
+input[type=submit]{
+
+    position: relative;
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    margin-left: 60px;
+    border: 0px;
+    background-color: #810d7b;
+    font: 14px normal normal uppercase helvatica, arial, serif;
+
+}
+
+input[type=reset]{
+
+    position: relative;
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    margin-left: 60px;
+    border: 0px;
+    background-color: #8704c4;
+    font: 14px normal normal uppercase helvatica, arial, serif;
+
+}
+
+p{
+    text-shadow: 0 1px 0 #fff;
+    font-size: 24px;
+}
+
+label{
+
+    margin: 11px 20px 0 0;
+    font-size: 16px;
+    color: black;
+    text-transform: uppercase;
+
+}
