@@ -28,6 +28,7 @@ body{
 #titulostipos{
     color: rgb(17, 247, 158);
     font: oblique bold 120% cursive;
+    font-size: 60px;
 }
 #textotipo{
     color: rgb(0, 0, 0);
@@ -49,7 +50,7 @@ body{
 }
 
 #titulosvideos{
-    color: rgb(255, 10, 10);
+    color: rgb(17, 247, 158);
     font: oblique bold 120% cursive;
 
 }
